@@ -1,0 +1,25 @@
+<!-- custom_drawer_icon.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="4dp"
+        android:layout_height="24dp"
+        android:background="#000000" />
+
+    <View
+        android:layout_width="4dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="6dp"
+        android:background="#000000" />
+
+    <View
+        android:layout_width="4dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="6dp"
+        android:background="#000000" />
+
+</LinearLayout>

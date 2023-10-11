@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+    <color name="heading">#0099ff</color>
+    <color name="primary_text">#000000</color>
+    <color name="colorPrimary">#1976d2</color>
+    <color name="colorAccent">#63a4ff</color>
+    <color name="colorPrimaryDark">#004ba0</color>
+    <color name="secondaryDarkColor">#c77b00</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="greenlite">#32CD32</color>
+    <color name="yellow">#FF8C00</color>
+    <color name="red">#ff0000</color>
+    <color name="colorGrey">#dddddd</color>
+    <color name="grey">#939292</color>
+    <color name="darkGrey">#656464</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="light">#E9EDEF</color>
+    <color name="gray">#888</color>
+    <color name="blue">#0000FF</color>
+    <color name="transparent">#00000000</color>
+</resources>

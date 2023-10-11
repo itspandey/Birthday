@@ -1,0 +1,102 @@
+<!-- custom_profile_picture_dialog.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- User's label -->
+    <TextView
+        android:id="@+id/userLabelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:padding="16dp"
+        android:text="Select Profile Picture"
+        android:textSize="16sp"
+        app:fontFamily="@font/adamina" />
+
+    <!-- Male profile pictures -->
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="3"
+
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/maleProfile1ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/boy1"
+            android:clickable="true"
+            android:layout_margin="5dp"
+            android:onClick="onMaleProfileClick"/>
+
+        <ImageView
+            android:id="@+id/maleProfile2ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/boy2"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="onMaleProfileClick"/>
+
+        <ImageView
+            android:id="@+id/maleProfile3ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/boy3"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="onMaleProfileClick"/>
+
+    </LinearLayout>
+
+    <!-- Female profile pictures -->
+    <LinearLayout
+        android:layout_below="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/femaleProfile1ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:src="@drawable/girl1"
+            android:layout_margin="5dp"
+            android:clickable="true"
+            android:onClick="onFemaleProfileClick"/>
+
+        <ImageView
+            android:id="@+id/femaleProfile2ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:src="@drawable/girl2"
+            android:clickable="true"
+            android:onClick="onFemaleProfileClick"/>
+
+        <ImageView
+            android:id="@+id/femaleProfile3ImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:src="@drawable/girl3"
+            android:clickable="true"
+            android:onClick="onFemaleProfileClick"/>
+
+    </LinearLayout>
+</LinearLayout>

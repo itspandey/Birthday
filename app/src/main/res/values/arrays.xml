@@ -1,0 +1,15 @@
+<resources>
+    <string name="select_month">Select Month</string>
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+
+    </string-array>
+
+    <string name="select_year">Select Year</string>
+    <string-array name="years_array">
+        <item>2023</item>
+        <item>2024</item>
+
+    </string-array>
+</resources>

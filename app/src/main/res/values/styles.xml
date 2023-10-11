@@ -1,0 +1,33 @@
+<resources>
+    <style name="Widget.Theme.birthday.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <!-- Style for CalendarView -->
+    <style name="Widget.CalendarView" parent="android:Widget.CalendarView">
+        <item name="android:dateTextAppearance">@style/CalendarDateTextAppearance</item>
+        <!-- Add more customizations for CalendarView here if needed -->
+    </style>
+
+    <!-- TextAppearance style for dates inside CalendarView -->
+    <style name="CalendarDateTextAppearance" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- TextAppearance style for day names inside CalendarView -->
+    <style name="WeekDayTextAppearance" parent="android:TextAppearance.Widget.TextView">
+        <item name="android:textSize">16sp</item> <!-- Customize text size for day names -->
+        <item name="android:textColor">@android:color/black</item> <!-- Customize text color for day names -->
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+</resources>
